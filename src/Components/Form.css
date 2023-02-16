@@ -1,0 +1,25 @@
+.form {
+  display: none;
+  position: relative;
+}
+
+.form input,
+textarea {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.btn {
+  float: right;
+  margin-right: 2px;
+}
+
+textarea {
+  max-height: 250px;
+  min-height: 140px;
+}

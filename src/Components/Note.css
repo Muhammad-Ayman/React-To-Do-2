@@ -1,0 +1,21 @@
+.title,
+.content {
+  margin: 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.Note {
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+  min-height: 150px;
+  border-radius: 10px;
+  box-shadow: rgb(219, 218, 232) 2px 2px 17px -1px;
+}
+.Btn {
+  float: right;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

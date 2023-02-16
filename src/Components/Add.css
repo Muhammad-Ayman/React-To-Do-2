@@ -1,0 +1,41 @@
+.addform {
+  position: relative;
+  display: flex;
+}
+.Add {
+  display: none;
+  opacity: 20%;
+  transition: 0.5s;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+  min-height: 150px;
+  border-radius: 10px;
+  box-shadow: rgb(219, 218, 232) 2px 2px 17px -1px;
+}
+
+.Add:hover {
+  width: 320px;
+}
+
+.Add:focus {
+  opacity: 35%;
+}
+
+.addBtn {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  opacity: 30%;
+  font: 2em sans-serif;
+  background-color: antiquewhite;
+  align-self: center;
+}
+
+.addBtn:hover {
+  opacity: 70%;
+}
+.form:focus .Add {
+  display: block;
+}
